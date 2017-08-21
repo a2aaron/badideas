@@ -1,0 +1,61 @@
+The Big List of a2aaron's Really Bad Ideas (TM)
+
+Alternate Name:
+Ideas Aaron is No Longer Allowed to Suggest
+Things I Think Would Be Cool to Explore But Probably Aren't A Good Use of Time
+
+[Bad Idea #1 - Busy Beaver BF Competition]
+Write the longest running BrainFuck program that eventually terminates.
+A program's score is number of steps taken. Input and output are ignored
+(so no `.` or `,`) and the tape is the standard one (aka infinitely long,
+only 8-bit signed cells, overflow allowed, and saturates when moving left
+at the zeroth cell). Note that `[` and `]` DO count as executing a step since
+these can modify the program's state. I'm gonna consider any program with
+mismatched braces (ex: `[`, `+]` or `>+[>`) to be invalid programs.
+
+You could have a version where input and output are allowed, but those wouldn't
+be allowed to be infinite (I'd assume that the number of characters of input
+plus the number of characters in the program should equal the total number of
+characters allowed). EOF would also have to be specified, but that's a different
+story all together.
+
+Let BB_BF(n) be the number of steps that the longest running n-character BF
+program executes. (Gonna ignore input and output)
+
+BB_BF(1) is obviously 1 since the only programs are `+`, `-`, `>`, and `<`,
+which all execute for 1 step and then end.
+
+BB_BF(2) is 2. The only program with braces is `[]`, which jumps to the end of 
+the program after the first step (one step executed). All other programs have no
+loops and must end after 2 steps.
+
+BB_BF(3) is 3. There are less than 6*6*6 = 216 possible programs,
+but we can rule out some of the less interesting ones.
+
+I will use `_` to represent "any non-loop character"
+
+All programs with no `[` or `]` run for 3 steps.
+
+`[_]` run for 1 step because the first cell is zero, so we just jump
+to the end of the program instantly.
+
+`[]_` runs for 2 steps. We jump after the `[]` and then execute the non-loop
+instruction.
+
+`+[]` and `-[]` does not finish, since we get stuck in the `[]`
+and it never terminates.
+
+`>[]` and `<[]` runs for 2 steps as we jump over the `[]`.
+
+BB_BF(4) is 512.
+
+`____` runs for 4 steps.
+
+`[__]` runs for 1 step.
+
+`[_]_` runs for 2 steps as the loop never executes.
+
+`+[+]` and `-[-]` run for 512 steps (overflows after step 255)
+`+[-]` and `-[+]` run for 4 steps.
+`+[>]` and `-[>]` run for 4 steps
+`+[<]` and `-[<]` do not finish
