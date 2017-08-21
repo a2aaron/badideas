@@ -59,3 +59,19 @@ BB_BF(4) is 512.
 `+[-]` and `-[+]` run for 4 steps.
 `+[>]` and `-[>]` run for 4 steps
 `+[<]` and `-[<]` do not finish
+
+[🅱️ad Idea #2 - More 🅱️ Emojis]
+
+We all know that 🅱️ is a popular meme at this point, but this leaves out all
+of the non-English speaking users of the Internet. Thus, I propose adding a
+🅱️ version of the following characters:
+ß - U+00DF - Latin Small Letter sharp S
+Ƀ - U+0243 - Latin Capital Letter B with stroke	
+Ɓ - U+0181 - Latin Capital Letter B with hook
+Ḃ - U+1E02 - Latin Capital Letter B with dot above
+Ƃ - U+0182 - Latin Capital Letter B with top bar
+β - U+03B2 - Greek Small Letter Beta	
+Β - U+0392 - Greek Capital Letter Beta	
+Б - U+0411 - Cyrillic Capital Letter Be
+В - U+0412 - Cyrillic Capital Letter Ve	
+
