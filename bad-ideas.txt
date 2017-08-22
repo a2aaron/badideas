@@ -3,6 +3,7 @@ The Big List of a2aaron's Really Bad Ideas (TM)
 Alternate Name:
 Ideas Aaron is No Longer Allowed to Suggest
 Things I Think Would Be Cool to Explore But Probably Aren't A Good Use of Time
+Jokes, Story Prompts, Programming Ideas, Thoughts, Fragments
 
 [Bad Idea #1 - Busy Beaver BF Competition]
 Write the longest running BrainFuck program that eventually terminates.
@@ -73,5 +74,13 @@ of the non-English speaking users of the Internet. Thus, I propose adding a
 β - U+03B2 - Greek Small Letter Beta	
 Β - U+0392 - Greek Capital Letter Beta	
 Б - U+0411 - Cyrillic Capital Letter Be
-В - U+0412 - Cyrillic Capital Letter Ve	
+В - U+0412 - Cyrillic Capital Letter Ve
 
+[Bad Idea #3 - ARG Nonsense]
+Binary that looks like morse code, morse code that looks like binary.
+
+[Bad Idea #4 - Lazy Jokes]
+It's Eclipse but the logo is replaced by an actual eclipse.
+
+[Bad Idea #5 - Night Mind]
+Pay Nick Nocturne to read out the Navy Seal Copypasta.
