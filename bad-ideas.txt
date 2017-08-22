@@ -89,3 +89,15 @@ Pay Nick Nocturne to read out the Navy Seal Copypasta.
 A story where the main character has been retconned out of existence, but the
 plot still remain. The story focuses on the main character's friends and family
 slowly realizing that something has always been missing from their lives.
+
+[Bad Idea #7 - Library]
+A programming language for libraries, but `return` actually makes a book
+come back to the library.
+
+[Bad Idea #8 - Chess]
+Chess but Turing Complete. Computation is achieved only via legal moves.
+Computation halts on stalemate and checkmate. The board is infinite and you can
+use an unlimited number of pieces (must be finite though).
+
+You might be able to do this with a sufficent number of kings (to force check),
+pawns, and bishops.
