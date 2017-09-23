@@ -101,3 +101,8 @@ use an unlimited number of pieces (must be finite though).
 
 You might be able to do this with a sufficent number of kings (to force check),
 pawns, and bishops.
+
+[Bad Idea #9 - Ross Littlewood]
+Suppose that a trolley is heading towards one of two tracks. on the first track, every time the distance to it halves, ten people are added with numbers on thier shirts and the lowest numbered person is removed. however, on the second track, every time the distance halves, ten people are added to the track and all of the previous people have their numbers appened with a zero. the trolley will go down the first track but you can flip a switch to make it go down the second. do you flip the switch?
+
+Ross Littlewood Paradox 2 - Is the vase half empty or half full?
