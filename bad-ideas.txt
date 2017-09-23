@@ -103,6 +103,24 @@ You might be able to do this with a sufficent number of kings (to force check),
 pawns, and bishops.
 
 [Bad Idea #9 - Ross Littlewood]
-Suppose that a trolley is heading towards one of two tracks. on the first track, every time the distance to it halves, ten people are added with numbers on thier shirts and the lowest numbered person is removed. however, on the second track, every time the distance halves, ten people are added to the track and all of the previous people have their numbers appened with a zero. the trolley will go down the first track but you can flip a switch to make it go down the second. do you flip the switch?
+Suppose that a trolley is heading towards one of two tracks. on the first track,
+every time the distance to it halves, ten people are added with numbers on thier
+shirts and the lowest numbered person is removed. however, on the second track,
+every time the distance halves, ten people are added to the track and all of the
+previous people have their numbers appened with a zero. the trolley will go down
+the first track but you can flip a switch to make it go down the second. do you
+flip the switch?
 
 Ross Littlewood Paradox 2 - Is the vase half empty or half full?
+
+Ross Littlewood Paradox 3 - Suppose that the jug is full and an infinite number
+                            of balls want to enter it. How do we accomodate the
+                            new balls?
+
+Ross Littlewood Paradox FRC Edition: Suppose that all the balls are Fuel for an
+                                     airship. Is doing fuel still worth it?
+                                     (The answer is "not until week 5")
+
+
+[Bad Idea #10 - Computable Busy Beaver]
+The Halting Problem implies that there exist Turing Machines that do not halt but cannot be proven to do so.
