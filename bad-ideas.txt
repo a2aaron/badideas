@@ -123,4 +123,10 @@ Ross Littlewood Paradox FRC Edition: Suppose that all the balls are Fuel for an
 
 
 [Bad Idea #10 - Computable Busy Beaver]
-The Halting Problem implies that there exist Turing Machines that do not halt but cannot be proven to do so.
+The Halting Problem implies that there exist Turing Machines that do not halt
+but cannot be proven to do so. Thus, instead, consider the set of all Turing
+Machines that can be proven to halt. The Computable Busy Beaver Problem now asks
+"what is the longest running Turing Machine in this set"?
+
+This might be just equivalent to the problem "What is the fastest growing
+computable function", which might not have a good answer.
