@@ -1,0 +1,3 @@
+panic!("at the Disco!")
+
+use loss functions to determine how similar something is to loss

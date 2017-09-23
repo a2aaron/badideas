@@ -130,3 +130,5 @@ Machines that can be proven to halt. The Computable Busy Beaver Problem now asks
 
 This might be just equivalent to the problem "What is the fastest growing
 computable function", which might not have a good answer.
+
+

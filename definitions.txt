@@ -1,3 +1,4 @@
 context switch - a very tiny light switch that lets you know when to do something else
 CPU - a very tiny fairy who has a big notepad and fancy calculator
 GPU - like a CPU but they have a blank canvas instead of a notepad
+bytebeat - an algorhythm
